@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MirrorHScrollView">
+        <attr name="mirror_horizontal" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="MirrorScrollView">
+        <attr name="mirror_vertical" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="ScrollTable">
+        <attr name="scrollTable_autoPopulate" format="boolean"/>
+        <attr name="scrollTable_background" format="color" />
+        <attr name="scrollTable_borderColor" format="color"/>
+        <attr name="scrollTable_northCellBorder" format="integer"/>
+        <attr name="scrollTable_southCellBorder" format="integer"/>
+        <attr name="scrollTable_westCellBorder" format="integer"/>
+        <attr name="scrollTable_eastCellBorder" format="integer"/>
+        <attr name="scrollTable_northRows" format="integer"/>
+        <attr name="scrollTable_southRows" format="integer"/>
+        <attr name="scrollTable_westColumns" format="integer"/>
+        <attr name="scrollTable_eastColumns" format="integer"/>
+        <attr name="scrollTable_northRowsGap" format="integer"/>
+        <attr name="scrollTable_southRowsGap" format="integer"/>
+        <attr name="scrollTable_westColumnsGap" format="integer"/>
+        <attr name="scrollTable_eastColumnsGap" format="integer"/>
+        <attr name="scrollTable_shrink">
+            <flag name="none" value="0" />
+            <flag name="north" value="1" />
+            <flag name="east" value="2" />
+            <flag name="south" value="4" />
+            <flag name="west" value="8" />
+            <flag name="all" value="15" />
+        </attr>
+    </declare-styleable>
+</resources>
