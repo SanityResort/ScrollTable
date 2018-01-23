@@ -64,7 +64,7 @@ In case you decide not to use the provided fragment or disable auto population y
 ## Configuration Options
 
 <dl>
-    <dt>scrollTable_autoPopulate"</dt>
+    <dt>scrollTable_autoPopulate</dt>
     <dd>Defines if the fragment should handle populating the scroll table during ```onResume```. Type Boolean, defaults to ```false```.</dd>
     <dt>scrollTable_borderColor</dt>
     <dd>Defines color of the cell borders. Type Color, defaults to ```Color.TRANSPARENT``` </dd>
