@@ -65,37 +65,37 @@ In case you decide not to use the provided fragment or disable auto population y
 
 <dl>
     <dt>scrollTable_autoPopulate</dt>
-    <dd>Defines if the fragment should handle populating the scroll table during ```onResume```. Type Boolean, defaults to ```false```.</dd>
+    <dd>Defines if the fragment should handle populating the scroll table during <code>onResume</code>. Type Boolean, defaults to <code>false</code>.</dd>
     <dt>scrollTable_borderColor</dt>
-    <dd>Defines color of the cell borders. Type Color, defaults to ```Color.TRANSPARENT``` </dd>
+    <dd>Defines color of the cell borders. Type Color, defaults to <code>Color.TRANSPARENT</code>.</dd>
     <dt>scrollTable_eastCellBorder</dt>
-    <dd>Defines the east/right border width of all cells. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the east/right border width of all cells. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_eastColumns</dt>
-    <dd>Defines the amount of columns on the east/right edge. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the amount of columns on the east/right edge. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_eastColumnsGap</dt>
-    <dd>Defines the width of the gap between the east/right edge and the center table. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the width of the gap between the east/right edge and the center table. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_gapColor</dt>
-    <dd>Defines the color of the gaps between north/east/south/west and the center view. Type Color, defaults to ```Color.TRANSPARENT```</dd>
+    <dd>Defines the color of the gaps between north/east/south/west and the center view. Type Color, defaults to <code>Color.TRANSPARENT</code></dd>
     <dt>scrollTable_northCellBorder</dt>
-    <dd>Defines the north/top border width of all cells. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the north/top border width of all cells. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_northRows</dt>
-    <dd>Defines the amount of rows at the north/top edge. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the amount of rows at the north/top edge. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_northRowsGap</dt>
-    <dd>Defines the width of the gap between the north/top edge and the center table. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the width of the gap between the north/top edge and the center table. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_shrink</dt>
-    <dd>Defines which edges should be shrunk. Possible values are ```none|north|east|south|west|all``` which can be combined using the ```|``` operator, defaults to ```none```.</dd>
+    <dd>Defines which edges should be shrunk. Possible values are <code>none|north|east|south|west|all</code> which can be combined using the <code>|</code> operator, defaults to <code>none</code>.</dd>
     <dt>scrollTable_southCellBorder</dt>
-    <dd>Defines the south/bottom border width of all cells. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the south/bottom border width of all cells. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_southRows</dt>
-    <dd>Defines the amount of rows at the south/bottom edge. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the amount of rows at the south/bottom edge. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_southRowsGap</dt>
-    <dd>Defines the width of the gap between the south/bottom edge and the center table. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the width of the gap between the south/bottom edge and the center table. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_westCellBorder</dt>
-    <dd>Defines the west/left border width of all cells. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the west/left border width of all cells. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_westColumns</dt>
-    <dd>Defines the amount of columns on the west/left edge. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the amount of columns on the west/left edge. Type Integer, defaults to <code>0</code>.</dd>
     <dt>scrollTable_westColumnsGap</dt>
-    <dd>Defines the width of the gap between the west/left edge and the center table. Type Integer, defaults to ```0```.</dd>
+    <dd>Defines the width of the gap between the west/left edge and the center table. Type Integer, defaults to <code>0</code>.</dd>
 </dl>
 
 # Example 
