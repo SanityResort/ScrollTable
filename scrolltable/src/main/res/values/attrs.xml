@@ -8,7 +8,7 @@
     </declare-styleable>
     <declare-styleable name="ScrollTable">
         <attr name="scrollTable_autoPopulate" format="boolean"/>
-        <attr name="scrollTable_background" format="color" />
+        <attr name="scrollTable_gapColor" format="color" />
         <attr name="scrollTable_borderColor" format="color"/>
         <attr name="scrollTable_northCellBorder" format="integer"/>
         <attr name="scrollTable_southCellBorder" format="integer"/>

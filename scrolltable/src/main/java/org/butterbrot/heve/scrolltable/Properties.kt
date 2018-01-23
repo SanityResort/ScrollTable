@@ -47,6 +47,6 @@ class ScrollTableProperties(typedArray: TypedArray) {
         westColumnsGap = typedArray.getInt(R.styleable.ScrollTable_scrollTable_westColumnsGap, 0)
         eastColumnsGap = typedArray.getInt(R.styleable.ScrollTable_scrollTable_eastColumnsGap, 0)
 
-        background = typedArray.getColor(R.styleable.ScrollTable_scrollTable_background, Color.TRANSPARENT)
+        background = typedArray.getColor(R.styleable.ScrollTable_scrollTable_gapColor, Color.TRANSPARENT)
     }
 }

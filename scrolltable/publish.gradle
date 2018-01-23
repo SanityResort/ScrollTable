@@ -1,0 +1,77 @@
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+task sourcesJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier = 'sources'
+}
+
+task javadoc(type: Javadoc) {
+    source = android.sourceSets.main.java.srcDirs
+    classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
+}
+
+task javadocJar(type: Jar, dependsOn: javadoc) {
+    classifier = 'javadoc'
+    from javadoc.destinationDir
+}
+
+group = 'org.butterbrot.heve.scrolltable'
+version = '1.0.0'
+
+install {
+    repositories.mavenInstaller {
+        pom.project {
+            name 'ScrollTable'
+            description 'A scrollable table that have fixed rows and columns with border support.'
+            url 'https://github.com/SanityResort/ScrollTable'
+            inceptionYear '2018'
+
+            packaging 'aar'
+            groupId 'org.butterbrot.heve.scrolltable'
+            artifactId 'scrolltable'
+            version '1.0.0'
+
+            licenses {
+                license {
+                    name 'The MIT License (MIT)'
+                    url 'https://opensource.org/licenses/MIT'
+                }
+            }
+            scm {
+                connection 'https://github.com/SanityResort/ScrollTable.git'
+                url 'https://github.com/SanityResort/ScrollTable'
+
+            }
+            developers {
+                developer {
+                    id = 'ScrollTable'
+                    name 'Christian Huber'
+                }
+            }
+        }
+    }
+}
+
+Properties bintrayProperties = new Properties()
+bintrayProperties.load(project.rootProject.file('bintray.properties').newDataInputStream())
+
+bintray {
+    user = bintrayProperties.getProperty('user')
+    key = bintrayProperties.get('key')
+    configurations = ['archives']
+    pkg {
+        repo = 'android-libs'
+        name = 'scrolltable'
+        userOrg = 'sanityresort'
+        licenses = ['MIT']
+        vcsUrl = 'https://github.com/SanityResort/ScrollTable.git'
+        publish = true
+        version {
+            name = '1.0.0'
+            desc = 'ScrollTable 1.0.0'
+            released = new Date()
+            vcsTag = 'v1.0.0'
+        }
+    }
+}
