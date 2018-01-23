@@ -26,7 +26,7 @@ Alternatively you can configure the fixed parts to be shrunk in order to provide
 
 # Installation
 
-The library is available at JCenter and Maven Central. Just add the appropriate dependency to your project.
+The library is available at JCenter. Just add the appropriate dependency to your project.
 
 ## Maven
 
