@@ -53,6 +53,10 @@ install {
     }
 }
 
+artifacts {
+    archives sourcesJar
+}
+
 Properties bintrayProperties = new Properties()
 bintrayProperties.load(project.rootProject.file('bintray.properties').newDataInputStream())
 
